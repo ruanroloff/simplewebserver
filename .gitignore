@@ -1,10 +1,28 @@
-# For projects using Nanoc (http://nanoc.ws/)
+# https://github.com/github/gitignore/blob/master/CMake.gitignore
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+install_manifest.txt
+*.cmake
+#Additions to https://github.com/github/gitignore/blob/master/CMake.gitignore
+Testing
+compile_commands.json
+.usages_clang
 
-# Default location for output (needs to match output_dir's value found in nanoc.yaml)
-output/
+*.crt
+*.key
 
-# Temporary file directory
-tmp/nanoc/
+# executables
+http_examples
+https_examples
+sws_io_test
+sws_parse_test
+sws_crypto_test
+status_code_test
 
-# Crash Log
-crash.log
+# Visual Studio 2015/2017 cache/options directory
+.vs
+
+docs/doxygen_output
